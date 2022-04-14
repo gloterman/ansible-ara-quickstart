@@ -12,6 +12,6 @@ env:
 	echo "[  OK  ] PIP REQUIREMENTS" || \
 	echo "[FAILED] PIP REQUIREMENTS"
 	
-#	@ansible-galaxy install -fr "${PWD}/requirements.yml" && \
-#	echo "[  OK  ] ANSIBLE-GALAXY REQUIREMENTS" || \
-#	echo "[FAILED] ANSIBLE-GALAXY REQUIREMENTS"
+	@ansible-galaxy install -fr "${PWD}/requirements.yml" && \
+	echo "[  OK  ] ANSIBLE-GALAXY REQUIREMENTS" || \
+	echo "[FAILED] ANSIBLE-GALAXY REQUIREMENTS"
