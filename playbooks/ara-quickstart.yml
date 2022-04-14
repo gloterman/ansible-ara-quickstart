@@ -3,12 +3,10 @@
   hosts: 127.0.0.1
   connection: local
 
+  vars:
+    - welcome: "Bravo ! Vous venez d'installer Ara !"
+    - ultimate: "Ansible ultimate edition, c'est trop cool"
+
   tasks:
-    - community.general.say:
-        msg: "Bravo ! Vous venez d'installer Ara !"
-        voice: Thomas
-      delegate_to: localhost
-    - community.general.say:
-        msg: "Ansible ultimate edition, c'est trop cool"
-        voice: Thomas
-      delegate_to: localhost
+    - debug: msg="{{ welcome }}"
+    - debug: msg="{{ ultimate }}"

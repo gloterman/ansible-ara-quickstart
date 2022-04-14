@@ -9,7 +9,7 @@ Ceci est un bout du  Ansible Ultimate Edition :
 
 # Pré-requis
 
-Vous avez besoin de direnv et de Pyhton, les prérequis sont détaillés ici : https://ansible-ultimate-edition.readthedocs.io/en/latest/exercises/basics/ex00-install.html 
+Vous avez besoin de direnv et de Pyhton, les prérequis sont détaillés ici : https://ansible-ultimate-edition.readthedocs.io/en/latest/exercises/basics/ex00-install.html
 
 Sinon :
 
